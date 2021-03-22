@@ -3,9 +3,18 @@ body {
   background: #ebda2d;
 }
 
-h1 {
-  text-align: center;
+a {
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 5px;
+  color: #ebda2d;
+  background: black;
 }
+
+a:hover {
+  color: blanchedalmond;
+}
+
 .links {
   display: flex;
   justify-content: space-evenly;
@@ -14,5 +23,10 @@ h1 {
 img {
   display: block;
   margin: 0 auto;
-  
+}
+
+#recipe-link {
+  display: flex !important;
+  justify-content: center !important;
+  padding: 2px !important;
 }
