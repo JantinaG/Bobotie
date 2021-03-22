@@ -1,0 +1,16 @@
+body {
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
